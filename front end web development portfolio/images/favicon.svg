@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Favicon for Mike Johnson's Portfolio -->
+  
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#1e88e5"/>
+  
+  <!-- Letter M stylized -->
+  <path d="M16,16 L16,48 L24,48 L24,28 L32,40 L40,28 L40,48 L48,48 L48,16 L40,16 L32,30 L24,16 Z" fill="#ffffff"/>
+  
+  <!-- Code bracket accent -->
+  <path d="M12,24 L18,20 L18,24 L14,26 L18,28 L18,32 L12,28 Z" fill="#90caf9" opacity="0.8"/>
+  <path d="M52,28 L46,32 L46,28 L50,26 L46,24 L46,20 L52,24 Z" fill="#90caf9" opacity="0.8"/>
+</svg>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Smart Home IoT App Project Thumbnail -->
+  <rect width="800" height="600" fill="#f5f5f7"/>
+  
+  <!-- Background Pattern -->
+  <g opacity="0.1">
+    <rect x="0" y="0" width="800" height="600" fill="#1e88e5" opacity="0.05"/>
+    <circle cx="100" cy="100" r="50" fill="#1e88e5" opacity="0.1"/>
+    <circle cx="700" cy="500" r="80" fill="#1e88e5" opacity="0.1"/>
+    <circle cx="200" cy="450" r="30" fill="#1e88e5" opacity="0.1"/>
+    <circle cx="600" cy="150" r="40" fill="#1e88e5" opacity="0.1"/>
+  </g>
+  
+  <!-- Smart Home Mockup -->
+  <g transform="translate(100, 50)">
+    <!-- House Outline -->
+    <path d="M300,50 L500,150 L500,350 L100,350 L100,150 Z" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+    <path d="M300,50 L500,150 L500,350 L100,350 L100,150 Z" fill="#1e88e5" opacity="0.05"/>
+    
+    <!-- Roof -->
+    <path d="M300,50 L500,150 L100,150 Z" fill="#1e88e5" opacity="0.2"/>
+    
+    <!-- Windows -->
+    <rect x="150" y="200" width="60" height="60" rx="5" fill="#bbdefb"/>
+    <rect x="390" y="200" width="60" height="60" rx="5" fill="#bbdefb"/>
+    
+    <!-- Door -->
+    <rect x="270" y="250" width="60" height="100" rx="5" fill="#1e88e5" opacity="0.3"/>
+    <circle cx="315" cy="300" r="5" fill="#ffffff"/>
+    
+    <!-- Mobile App Interface -->
+    <g transform="translate(350, 100)">
+      <!-- Phone Frame -->
+      <rect x="0" y="0" width="200" height="400" rx="20" fill="#333333"/>
+      <rect x="10" y="10" width="180" height="380" rx="10" fill="#ffffff"/>
+      
+      <!-- Status Bar -->
+      <rect x="10" y="10" width="180" height="20" rx="5" fill="#f5f5f7"/>
+      <circle cx="25" cy="20" r="3" fill="#333333"/>
+      <rect x="35" y="18" width="25" height="4" rx="2" fill="#333333"/>
+      <rect x="150" y="18" width="15" height="4" rx="2" fill="#333333"/>
+      <rect x="170" y="18" width="10" height="4" rx="2" fill="#333333"/>
+      
+      <!-- App Header -->
+      <rect x="10" y="30" width="180" height="50" rx="5" fill="#1e88e5"/>
+      <text x="25" y="60" font-family="Arial" font-size="14" fill="#ffffff" font-weight="bold">SmartHome</text>
+      <circle cx="170" cy="55" r="10" fill="#ffffff" opacity="0.2"/>
+      <text x="170" y="60" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">👤</text>
+      
+      <!-- Room Controls -->
+      <rect x="20" y="90" width="160" height="80" rx="10" fill="#f5f5f7"/>
+      <text x="35" y="110" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">Living Room</text>
+      
+      <!-- Temperature Control -->
+      <g transform="translate(40, 130)">
+        <circle cx="25" cy="25" r="25" fill="#ffffff" stroke="#1e88e5" stroke-width="2"/>
+        <text x="25" y="30" font-family="Arial" font-size="14" fill="#1e88e5" text-anchor="middle" font-weight="bold">22°C</text>
+      </g>
+      
+      <!-- Light Control -->
+      <g transform="translate(120, 130)">
+        <circle cx="25" cy="25" r="25" fill="#ffffff" stroke="#ffb74d" stroke-width="2"/>
+        <text x="25" y="30" font-family="Arial" font-size="14" fill="#ffb74d" text-anchor="middle" font-weight="bold">ON</text>
+      </g>
+      
+      <!-- Kitchen Controls -->
+      <rect x="20" y="180" width="160" height="80" rx="10" fill="#f5f5f7"/>
+      <text x="35" y="200" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">Kitchen</text>
+      
+      <!-- Temperature Control -->
+      <g transform="translate(40, 220)">
+        <circle cx="25" cy="25" r="25" fill="#ffffff" stroke="#1e88e5" stroke-width="2"/>
+        <text x="25" y="30" font-family="Arial" font-size="14" fill="#1e88e5" text-anchor="middle" font-weight="bold">24°C</text>
+      </g>
+      
+      <!-- Light Control -->
+      <g transform="translate(120, 220)">
+        <circle cx="25" cy="25" r="25" fill="#ffffff" stroke="#ffb74d" stroke-width="2"/>
+        <text x="25" y="30" font-family="Arial" font-size="14" fill="#ffb74d" text-anchor="middle" font-weight="bold">OFF</text>
+      </g>
+      
+      <!-- Security Status -->
+      <rect x="20" y="270" width="160" height="60" rx="10" fill="#4caf50" opacity="0.2"/>
+      <text x="35" y="300" font-family="Arial" font-size="12" fill="#333333" font-weight="bold">Security System: Armed</text>
+      <circle cx="160" cy="300" r="10" fill="#4caf50"/>
+      
+      <!-- Bottom Navigation -->
+      <rect x="10" y="350" width="180" height="40" rx="5" fill="#f5f5f7"/>
+      
+      <!-- Nav Icons -->
+      <g fill="#757575" text-anchor="middle">
+        <g transform="translate(45, 370)">
+          <circle cx="0" cy="0" r="10" fill="#1e88e5" opacity="0.1"/>
+          <text font-family="Arial" font-size="10" fill="#1e88e5" y="3">🏠</text>
+        </g>
+        <g transform="translate(100, 370)">
+          <text font-family="Arial" font-size="10" y="3">📊</text>
+        </g>
+        <g transform="translate(155, 370)">
+          <text font-family="Arial" font-size="10" y="3">⚙️</text>
+        </g>
+      </g>
+    </g>
+    
+    <!-- IoT Devices -->
+    <!-- Smart Thermostat -->
+    <g transform="translate(170, 210)">
+      <circle cx="10" cy="10" r="10" fill="#1e88e5" opacity="0.5"/>
+      <circle cx="10" cy="10" r="5" fill="#1e88e5"/>
+    </g>
+    
+    <!-- Smart Light -->
+    <g transform="translate(410, 210)">
+      <circle cx="10" cy="10" r="10" fill="#ffb74d" opacity="0.5"/>
+      <circle cx="10" cy="10" r="5" fill="#ffb74d"/>
+    </g>
+    
+    <!-- Security Camera -->
+    <g transform="translate(300, 100)">
+      <rect x="-10" y="-5" width="20" height="15" rx="2" fill="#616161"/>
+      <circle cx="0" cy="0" r="5" fill="#424242"/>
+      <circle cx="0" cy="0" r="2" fill="#212121"/>
+    </g>
+    
+    <!-- Connection Lines -->
+    <g stroke="#1e88e5" stroke-width="1" stroke-dasharray="5,5" opacity="0.5">
+      <line x1="180" y1="220" x2="350" y2="150"/>
+      <line x1="420" y1="220" x2="350" y2="150"/>
+      <line x1="300" y1="100" x2="350" y2="150"/>
+    </g>
+  </g>
+  
+  <!-- Project Label -->
+  <rect x="250" y="520" width="300" height="50" rx="25" fill="#1e88e5" opacity="0.9"/>
+  <text x="400" y="555" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Smart Home IoT App</text>
+</svg>

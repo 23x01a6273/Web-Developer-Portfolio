@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Fitness Tracker App Project Thumbnail -->
+  <rect width="800" height="600" fill="#f5f5f7"/>
+  
+  <!-- Background Pattern -->
+  <g opacity="0.1">
+    <rect x="0" y="0" width="800" height="600" fill="#1e88e5" opacity="0.05"/>
+    <circle cx="100" cy="100" r="50" fill="#1e88e5" opacity="0.2"/>
+    <circle cx="700" cy="500" r="80" fill="#1e88e5" opacity="0.2"/>
+    <circle cx="200" cy="450" r="30" fill="#1e88e5" opacity="0.2"/>
+    <circle cx="600" cy="150" r="40" fill="#1e88e5" opacity="0.2"/>
+  </g>
+  
+  <!-- Mobile App Mockup -->
+  <g transform="translate(250, 50)">
+    <!-- Phone Frame -->
+    <rect x="0" y="0" width="300" height="500" rx="30" fill="#333333"/>
+    <rect x="10" y="10" width="280" height="480" rx="20" fill="#ffffff"/>
+    
+    <!-- Status Bar -->
+    <rect x="10" y="10" width="280" height="25" rx="5" fill="#f5f5f7"/>
+    <circle cx="30" cy="22" r="5" fill="#333333"/>
+    <rect x="40" y="19" width="40" height="6" rx="3" fill="#333333"/>
+    <rect x="230" y="19" width="20" height="6" rx="3" fill="#333333"/>
+    <rect x="255" y="19" width="15" height="6" rx="3" fill="#333333"/>
+    
+    <!-- App Header -->
+    <rect x="10" y="35" width="280" height="60" rx="5" fill="#1e88e5"/>
+    <text x="30" y="70" font-family="Arial" font-size="18" fill="#ffffff" font-weight="bold">FitTrack</text>
+    <circle cx="260" cy="65" r="15" fill="#ffffff" opacity="0.2"/>
+    <text x="260" y="70" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">👤</text>
+    
+    <!-- Dashboard Stats -->
+    <rect x="30" y="110" width="240" height="100" rx="10" fill="#f5f5f7"/>
+    
+    <!-- Steps Counter -->
+    <g transform="translate(50, 130)">
+      <circle cx="30" cy="30" r="30" fill="none" stroke="#1e88e5" stroke-width="5" stroke-dasharray="150 188" stroke-dashoffset="0" transform="rotate(-90, 30, 30)"/>
+      <text x="30" y="25" font-family="Arial" font-size="12" fill="#757575" text-anchor="middle">Steps</text>
+      <text x="30" y="45" font-family="Arial" font-size="18" fill="#333333" font-weight="bold" text-anchor="middle">8,546</text>
+    </g>
+    
+    <!-- Calories Counter -->
+    <g transform="translate(170, 130)">
+      <circle cx="30" cy="30" r="30" fill="none" stroke="#ff9800" stroke-width="5" stroke-dasharray="120 188" stroke-dashoffset="0" transform="rotate(-90, 30, 30)"/>
+      <text x="30" y="25" font-family="Arial" font-size="12" fill="#757575" text-anchor="middle">Calories</text>
+      <text x="30" y="45" font-family="Arial" font-size="18" fill="#333333" font-weight="bold" text-anchor="middle">1,245</text>
+    </g>
+    
+    <!-- Activity Chart -->
+    <rect x="30" y="225" width="240" height="150" rx="10" fill="#f5f5f7"/>
+    <text x="50" y="250" font-family="Arial" font-size="14" fill="#333333" font-weight="bold">Weekly Activity</text>
+    
+    <!-- Chart Lines -->
+    <line x1="50" y1="350" x2="250" y2="350" stroke="#e0e0e0" stroke-width="1"/>
+    <line x1="50" y1="270" x2="50" y2="350" stroke="#e0e0e0" stroke-width="1"/>
+    
+    <!-- Activity Line Chart -->
+    <polyline points="50,320 80,310 110,330 140,290 170,300 200,270 230,290" fill="none" stroke="#1e88e5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Chart Points -->
+    <circle cx="50" cy="320" r="4" fill="#1e88e5"/>
+    <circle cx="80" cy="310" r="4" fill="#1e88e5"/>
+    <circle cx="110" cy="330" r="4" fill="#1e88e5"/>
+    <circle cx="140" cy="290" r="4" fill="#1e88e5"/>
+    <circle cx="170" cy="300" r="4" fill="#1e88e5"/>
+    <circle cx="200" cy="270" r="4" fill="#1e88e5"/>
+    <circle cx="230" cy="290" r="4" fill="#1e88e5"/>
+    
+    <!-- Chart Labels -->
+    <g font-family="Arial" font-size="10" fill="#757575" text-anchor="middle">
+      <text x="50" y="365">Mon</text>
+      <text x="80" y="365">Tue</text>
+      <text x="110" y="365">Wed</text>
+      <text x="140" y="365">Thu</text>
+      <text x="170" y="365">Fri</text>
+      <text x="200" y="365">Sat</text>
+      <text x="230" y="365">Sun</text>
+    </g>
+    
+    <!-- Bottom Navigation -->
+    <rect x="10" y="440" width="280" height="50" rx="5" fill="#f5f5f7"/>
+    
+    <!-- Nav Icons -->
+    <g fill="#757575" text-anchor="middle">
+      <g transform="translate(55, 465)">
+        <circle cx="0" cy="0" r="15" fill="#1e88e5" opacity="0.1"/>
+        <text font-family="Arial" font-size="10" fill="#1e88e5" y="3">📊</text>
+      </g>
+      <g transform="translate(125, 465)">
+        <text font-family="Arial" font-size="10" y="3">🏃</text>
+      </g>
+      <g transform="translate(195, 465)">
+        <text font-family="Arial" font-size="10" y="3">🍎</text>
+      </g>
+      <g transform="translate(265, 465)">
+        <text font-family="Arial" font-size="10" y="3">⚙️</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Project Label -->
+  <rect x="250" y="520" width="300" height="50" rx="25" fill="#1e88e5" opacity="0.9"/>
+  <text x="400" y="555" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Fitness Tracker App</text>
+</svg>
