@@ -1,8 +1,8 @@
-# Mike Johnson - Web Developer Portfolio
+# Krishna - Web Developer Portfolio
 
 ## Overview
 
-This is a professional portfolio website for Mike Johnson, a web developer. The website showcases Mike's skills, projects, and provides contact information for potential clients or employers.
+This is a professional portfolio website for Mike Johnson, a web developer. The website showcases krishna skills, projects, and provides contact information for potential clients or employers.
 
 ## Features
 
